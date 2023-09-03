@@ -3,14 +3,12 @@ class Dog {
     private String eyeColor;
     private String name;
     private int weight;
-    private Breed breed;
 
-    public Dog(String name, String eyeColor, String furColor, int weight, BreedType breedType) {
+    public Dog(String name, String eyeColor, String furColor, int weight) {
         this.furColor = furColor;
         this.eyeColor = eyeColor;
         this.name = name;
         this.weight = weight;
-        this.breed = new Breed(breedType);
     }
 
     public void run() {
@@ -32,23 +30,17 @@ class Dog {
     public void setWeight(int weight) {
         this.weight = weight;
     }
+
     public String getFurColor() {
         return furColor;
     }
-
     public String getEyeColor() {
         return eyeColor;
     }
-
     public String getName() {
         return name;
     }
-
     public int getWeight() {
         return weight;
-    }
-
-    public Breed getBreedType() {
-        return breed;
     }
 }
