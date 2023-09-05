@@ -14,20 +14,19 @@ class Dog {
     public void run() {
         System.out.println("Dog Started Running!");
     }
-    public void stop() {
-        System.out.println("Dog Stopped Running!");
+    public void bark() {
+        System.out.println("Dog Barked!");
+    }
+    public void jump() {
+        System.out.println("Dog Jumped!");
     }
 
-    public String getFurColor() {
-        return furColor;
+    public String getFurColor() {return furColor;
     }
-    public String getEyeColor() {
-        return eyeColor;
+    public String getEyeColor() {return eyeColor;
     }
-    public String getName() {
-        return name;
+    public String getName() {return name;
     }
-    public int getWeight() {
-        return weight;
+    public int getWeight() {return weight;
     }
 }

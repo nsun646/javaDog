@@ -13,22 +13,21 @@ public class Main {
         System.out.println("Weight: " + myDog.getWeight() + "lb");
         System.out.println("Breed: " + BreedType.WOLFDOG);
         myDog.run();
-        myDog.stop();
+
 
         System.out.println("Name: " + myDog1.getName());
         System.out.println("Eye Color: " + myDog1.getEyeColor());
         System.out.println("Fur Color: " + myDog1.getFurColor());
         System.out.println("Weight: " + myDog1.getWeight() + "lb");
         System.out.println("Breed: " + BreedType.BEAGLE);
-        myDog.run();
-        myDog.stop();
+        myDog1.jump();
+
 
         System.out.println("Name: " + myDog2.getName());
         System.out.println("Eye Color: " + myDog2.getEyeColor());
         System.out.println("Fur Color: " + myDog2.getFurColor());
         System.out.println("Weight: " + myDog2.getWeight() + "lb");
         System.out.println("Breed: " + BreedType.DALMATIAN);
-        myDog.run();
-        myDog.stop();
+        myDog2.bark();
     }
 }
