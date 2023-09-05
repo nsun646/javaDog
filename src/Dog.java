@@ -18,19 +18,6 @@ class Dog {
         System.out.println("Dog Stopped Running!");
     }
 
-    public void setFurColor(String furColor) {
-        this.furColor = furColor;
-    }
-    public void setEyeColor(String eyeColor) {
-        this.eyeColor = eyeColor;
-    }
-    public void setName(String name) {
-        this.name = name;
-    }
-    public void setWeight(int weight) {
-        this.weight = weight;
-    }
-
     public String getFurColor() {
         return furColor;
     }
